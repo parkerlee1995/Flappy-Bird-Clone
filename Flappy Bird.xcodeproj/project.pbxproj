@@ -15,6 +15,11 @@
 		CA3A3405217F81F600650E0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3A3403217F81F600650E0E /* Main.storyboard */; };
 		CA3A3407217F81F700650E0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3A3406217F81F700650E0E /* Assets.xcassets */; };
 		CA3A340A217F81F700650E0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3A3408217F81F700650E0E /* LaunchScreen.storyboard */; };
+		CA3A3421217F828800650E0E /* flappy2.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3A341C217F828800650E0E /* flappy2.png */; };
+		CA3A3422217F828800650E0E /* pipe2.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3A341D217F828800650E0E /* pipe2.png */; };
+		CA3A3423217F828800650E0E /* pipe1.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3A341E217F828800650E0E /* pipe1.png */; };
+		CA3A3424217F828800650E0E /* flappy1.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3A341F217F828800650E0E /* flappy1.png */; };
+		CA3A3425217F828800650E0E /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3A3420217F828800650E0E /* bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		CA3A3406217F81F700650E0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA3A3409217F81F700650E0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA3A340B217F81F700650E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3A341C217F828800650E0E /* flappy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flappy2.png; sourceTree = "<group>"; };
+		CA3A341D217F828800650E0E /* pipe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe2.png; sourceTree = "<group>"; };
+		CA3A341E217F828800650E0E /* pipe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe1.png; sourceTree = "<group>"; };
+		CA3A341F217F828800650E0E /* flappy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flappy1.png; sourceTree = "<group>"; };
+		CA3A3420217F828800650E0E /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +76,25 @@
 				CA3A33FF217F81F600650E0E /* GameScene.swift */,
 				CA3A3401217F81F600650E0E /* GameViewController.swift */,
 				CA3A3403217F81F600650E0E /* Main.storyboard */,
+				CA3A3426217F829400650E0E /* Images */,
 				CA3A3406217F81F700650E0E /* Assets.xcassets */,
 				CA3A3408217F81F700650E0E /* LaunchScreen.storyboard */,
 				CA3A340B217F81F700650E0E /* Info.plist */,
 			);
 			path = "Flappy Bird";
+			sourceTree = "<group>";
+		};
+		CA3A3426217F829400650E0E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CA3A3420217F828800650E0E /* bg.png */,
+				CA3A341F217F828800650E0E /* flappy1.png */,
+				CA3A341C217F828800650E0E /* flappy2.png */,
+				CA3A341E217F828800650E0E /* pipe1.png */,
+				CA3A341D217F828800650E0E /* pipe2.png */,
+			);
+			name = Images;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,8 +155,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA3A3425217F828800650E0E /* bg.png in Resources */,
 				CA3A3405217F81F600650E0E /* Main.storyboard in Resources */,
 				CA3A33FC217F81F600650E0E /* GameScene.sks in Resources */,
+				CA3A3424217F828800650E0E /* flappy1.png in Resources */,
+				CA3A3422217F828800650E0E /* pipe2.png in Resources */,
+				CA3A3423217F828800650E0E /* pipe1.png in Resources */,
+				CA3A3421217F828800650E0E /* flappy2.png in Resources */,
 				CA3A3407217F81F700650E0E /* Assets.xcassets in Resources */,
 				CA3A340A217F81F700650E0E /* LaunchScreen.storyboard in Resources */,
 				CA3A33FE217F81F600650E0E /* Actions.sks in Resources */,
